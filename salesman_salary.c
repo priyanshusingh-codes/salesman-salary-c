@@ -13,7 +13,7 @@ int main()
     scanf("%d", &coms);
     printf("Enter the price of each computer\n");
     scanf("%f", &comprice);
-    commission = (coms * comprice * 2)/100;
+    commission = (coms * comprice * 2)/100;//formuls to calculate comission
     subtotal = salary + commission;
     
      if( subtotal < 30000)
